@@ -1,0 +1,22 @@
+{
+  "name": "inna.sad",
+  "version": "1.0.0",
+  "description": "creating a new project for a massage gabinet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artem-Romanenko/massage_by_inna.sad.git"
+  },
+  "author": "romanenkoartem13@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Artem-Romanenko/massage_by_inna.sad/issues"
+  },
+  "homepage": "https://github.com/Artem-Romanenko/massage_by_inna.sad#readme",
+  "devDependencies": {
+    "vite": "^6.3.3"
+  }
+}
