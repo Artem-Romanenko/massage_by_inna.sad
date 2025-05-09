@@ -1,5 +1,7 @@
-@use "/src/sass/modern-normalize.min.css";
-@use "/src/sass/fontello.css";
+@use "/src/sass/libs/modern-normalize.min.css";
+@use "/src/sass/libs/fontello.css";
+
+@use "/src/sass/base/variables.scss" as *;
 
 h1,
 h2,
@@ -52,20 +54,4 @@ html {
 	font-family: "IBM Plex Serif",
 		sans-serif;
 	scroll-behavior: smooth;
-
-	.ibm-plex-serif-regular {
-		font-family: "IBM Plex Serif", serif;
-		font-weight: 400;
-		font-style: normal;
-	}
-
-	.ibm-plex-serif-bold {
-		font-family: "IBM Plex Serif", serif;
-		font-weight: 700;
-		font-style: normal;
-	}
-}
-
-span {
-	font-size: 33px;
 }
