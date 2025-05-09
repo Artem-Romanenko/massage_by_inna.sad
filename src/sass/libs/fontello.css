@@ -1,22 +1,12 @@
 @font-face {
   font-family: 'fontello';
-  src:
-    url('/src/font/fontello.woff2') format('woff2'),
-    url('/src/font/fontello.woff') format('woff');
+  src: url('/src/font/fontello.woff2') format('woff2'),  
+    url('/src/font/fontello.woff') format('woff'); /*При підключенні шрифта треба звернути увагу на шляхи*/
   font-weight: normal;
   font-style: normal;
 }
 
-/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
-/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
-/*
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: 'fontello';
-    src: url('../font/fontello.svg?25728089#fontello') format('svg');
-  }
-}
-*/
+
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
   font-family: "fontello";
@@ -52,11 +42,6 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
-.icon-search:before {
-  content: '\e800';
-}
-
-/* '' */
 .icon-right-big:before {
   content: '\e801';
 }
@@ -82,16 +67,16 @@
 }
 
 /* '' */
-.icon-suitcase:before {
-  content: '\f0f2';
-}
-
-/* '' */
 .icon-instagram:before {
   content: '\f16d';
 }
 
 /* '' */
+.icon-language:before {
+  content: '\f1ab';
+}
+
+/* '' */
 .icon-whatsapp:before {
   content: '\f232';
 }
